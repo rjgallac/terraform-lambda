@@ -6,7 +6,7 @@ module "lambda_function" {
   handler       = "index.lambda_handler"
   runtime       = "nodejs16.x"
 
-  source_path = "../src/lambda-function1"
+  source_path = "./build/lambda.zip"
 
   tags = {
     Name = "my-lambda1"

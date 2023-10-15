@@ -1,0 +1,1 @@
+zip -r ./build/lambda.zip ./src
